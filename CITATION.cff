@@ -1,0 +1,20 @@
+abstract: '<div>
+
+  <h1>Point Defects Ontology (PODO)</h1>
+
+  <a href="https://github.com/OCDO/podo#point-defects-ontology-podo"></a></div>
+
+  <p>PODO focuses on the description of point defects in crystalline materials.</p>'
+authors:
+- affiliation: "Forschungszentrum J\xFClich"
+  family-names: Abril Azocar Guzman
+cff-version: 1.2.0
+date-released: '2024-03-11'
+doi: 10.5281/zenodo.10805575
+identifiers:
+- type: url
+  value: http://purls.helmholtz-metadaten.de/podo/
+license:
+- cc-by-4.0
+title: 'OCDO/podo: v0.0.1'
+version: v0.0.1
