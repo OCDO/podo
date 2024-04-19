@@ -26,10 +26,9 @@ abstract: >-
 keywords:
   - ontology
   - crystal structure
-  - computational materials science
+  - materials science
   - materials informatics
   - semantics
-  - atomistic simulations
   - crystallographic defects
   - point defects
 license: CC-BY-4.0
