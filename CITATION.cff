@@ -30,6 +30,8 @@ keywords:
   - materials informatics
   - semantics
   - atomistic simulations
+  - crystallographic defects
+  - point defects
 license: CC-BY-4.0
 commit: 778a44c49de07f28ff5925b399e6db32e8b32f19
 version: v0.0.1
