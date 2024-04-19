@@ -1,20 +1,50 @@
-abstract: '<div>
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
 
-  <h1>Point Defects Ontology (PODO)</h1>
-
-  <a href="https://github.com/OCDO/podo#point-defects-ontology-podo"></a></div>
-
-  <p>PODO focuses on the description of point defects in crystalline materials.</p>'
-authors:
-- affiliation: "Forschungszentrum J\xFClich"
-  family-names: Abril Azocar Guzman
 cff-version: 1.2.0
-date-released: '2024-03-11'
-doi: 10.5281/zenodo.10805575
-identifiers:
-- type: url
-  value: http://purls.helmholtz-metadaten.de/podo/
-license:
-- cc-by-4.0
 title: 'OCDO/podo: v0.0.1'
+message: >-
+  Please cite this ontology using the metadata from
+  "preferred-citation".
+type: software
+authors:
+  - given-names: Abril
+    family-names: Azocar Guzman
+    orcid: 'https://orcid.org/0000-0001-7564-7990'
+    email: a.azocar.guzman@fz-juelich.de
+    affiliation: Forschungszentrum Juelich (FZJ)
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10805575
+    description: Version 0.0.1 of the ontology in Zenodo
+  - type: url
+    value: 'https://purls.helmholtz-metadaten.de/cdos/podo'
+    description: Ontology IRI
+repository-code: 'https://github.com/OCDO/podo'
+abstract: >-
+  Point Defect Ontology (PODO) is an ontology that focuses on the description of point defects in crystalline materials, including vacancies, substitutional and insterstitial atoms.
+keywords:
+  - ontology
+  - crystal structure
+  - computational materials science
+  - materials informatics
+  - semantics
+  - atomistic simulations
+license: CC-BY-4.0
+commit: 778a44c49de07f28ff5925b399e6db32e8b32f19
 version: v0.0.1
+date-released: '2024-03-11'
+preferred-citation:
+  authors:
+    - family-names: Azocar Guzman
+      given-names: Abril
+    - family-names: Menon
+      given-names: Sarath
+    - family-names: Hofmann
+      given-names: Volker
+    - family-names: Sandfeld
+      given-names: Stefan
+  title: "Point Defect Ontology (PODO)"
+  type: generic
+  year: 2024
+  url: https://purls.helmholtz-metadaten.de/cdos/podo
