@@ -2,6 +2,8 @@
 
 PODO focuses on the description of point defects in crystalline materials.
 
+* **Documentation**: https://ocdo.github.io/podo/
+
 ![Schematic representation of PODO](images/PODO.jpg)
 
 ## Acknowledgement
