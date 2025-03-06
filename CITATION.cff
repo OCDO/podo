@@ -39,13 +39,7 @@ preferred-citation:
   authors:
     - family-names: Azocar Guzman
       given-names: Abril
-    - family-names: Menon
-      given-names: Sarath
-    - family-names: Hofmann
-      given-names: Volker
-    - family-names: Sandfeld
-      given-names: Stefan
   title: "Point Defect Ontology (PODO)"
   type: generic
   year: 2024
-  url: https://purls.helmholtz-metadaten.de/cdos/podo
+  url: https://doi.org/10.5281/zenodo.10805574
