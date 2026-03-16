@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purls.helmholtz-metadaten.de/podo/"
-     xml:base="http://purls.helmholtz-metadaten.de/podo/"
+<rdf:RDF xmlns="https://purls.helmholtz-metadaten.de/podo/"
+     xml:base="https://purls.helmholtz-metadaten.de/podo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,17 +11,17 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
-    <owl:Ontology rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/">
-        <owl:versionIRI rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/1.0.0"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
+    <owl:Ontology rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/">
+        <owl:versionIRI rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/0.0.1"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-6776-1213"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7564-7990"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9560-4728"/>
         <terms:description>PODO focuses on the description of point defects in crystalline materials.</terms:description>
         <terms:title>Point Defects Ontology (PODO)</terms:title>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/OCDO/ldo</rdfs:seeAlso>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
-        <schema:citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abril Azocar Guzman. (2025). Line Defect Ontology. </schema:citation>
-        <schema:creativeWorkStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-release</schema:creativeWorkStatus>
+        <owl:versionInfo>0.0.1</owl:versionInfo>
+        <schema:citation>Abril Azocar Guzman and Stefan Sandfeld. (2025). Line Defect Ontology.</schema:citation>
+        <schema:creativeWorkStatus>Pre-release</schema:creativeWorkStatus>
         <schema:funder rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ror.org/05qj6w324</schema:funder>
         <schema:logo rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://raw.githubusercontent.com/OCDO/.github/refs/heads/main/profile/ocdo_logo.png</schema:logo>
     </owl:Ontology>
@@ -298,52 +298,52 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/hasImpurityConcentration -->
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/hasImpurityConcentration -->
 
-    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/hasImpurityConcentration">
+    <owl:DatatypeProperty rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/hasImpurityConcentration">
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cdos/cdco/Material"/>
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cmso/ComputationalSample"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data property indicating the impurity concentration.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data property indicating the impurity concentration.</obo:IAO_0000115>
         <rdfs:comment>The domain of this property should correspond to a material sample (either computational or experimental).</rdfs:comment>
         <rdfs:label>has impurity concentration</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfImpurityAtoms -->
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfImpurityAtoms -->
 
-    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfImpurityAtoms">
+    <owl:DatatypeProperty rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfImpurityAtoms">
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cdos/cdco/Material"/>
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cmso/ComputationalSample"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data property indicating the total number of impurity atoms in the crystal structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data property indicating the total number of impurity atoms in the crystal structure.</obo:IAO_0000115>
         <rdfs:comment>The domain of this property should correspond to a material sample (either computational or experimental).</rdfs:comment>
         <rdfs:label>has number of impurity atoms</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfVacancies -->
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfVacancies -->
 
-    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfVacancies">
+    <owl:DatatypeProperty rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/hasNumberOfVacancies">
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cdos/cdco/Material"/>
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cmso/ComputationalSample"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data property indicating the total number of vacancies in the crystal structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data property indicating the total number of vacancies in the crystal structure.</obo:IAO_0000115>
         <rdfs:comment>The domain of this property should correspond to a material sample (either computational or experimental).</rdfs:comment>
         <rdfs:label>has number of vacancies</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/hasVacancyConcentration -->
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/hasVacancyConcentration -->
 
-    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/hasVacancyConcentration">
+    <owl:DatatypeProperty rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/hasVacancyConcentration">
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cdos/cdco/Material"/>
         <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cmso/ComputationalSample"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data property indicating the vacancy concentration.</obo:IAO_0000115>
+        <obo:IAO_0000115>A data property indicating the vacancy concentration.</obo:IAO_0000115>
         <rdfs:comment>Note that the vacancy concentration is given as a fraction, with a value from 0 to 1.</rdfs:comment>
         <rdfs:comment>The domain of this property should correspond to a material sample (either computational or experimental).</rdfs:comment>
         <rdfs:label>has vacancy concentration</rdfs:label>
@@ -351,10 +351,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/occupiesInterstitialSite -->
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/occupiesInterstitialSite -->
 
-    <owl:DatatypeProperty rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/occupiesInterstitialSite">
-        <rdfs:domain rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/Interstitial"/>
+    <owl:DatatypeProperty rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/occupiesInterstitialSite">
+        <rdfs:domain rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/Interstitial"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>occupies interstitial site</rdfs:label>
     </owl:DatatypeProperty>
@@ -375,112 +375,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purls.helmholtz-metadaten.de/cdos/cdco/Material -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/cdco/Material">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materials are substances in the condensed states (liquid, solid, colloidal) designed or manipulated for technological ends.</obo:IAO_0000115>
+        <obo:IAO_0000115>Materials are substances in the condensed states (liquid, solid, colloidal) designed or manipulated for technological ends.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://web.archive.org/web/20100801234616/http://www.nature.com/nmat/authors/index.html</obo:IAO_0000119>
         <rdfs:label>Material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/AntisiteDefect -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/AntisiteDefect">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antisite Defect is a point defect which occurs in ordered alloys or compounds when two atoms of different type switch positions.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN 978-1-119-45416-8</obo:IAO_0000119>
-        <rdfs:label>Antisite Defect</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/FrenkelDefect -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/FrenkelDefect">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Frenkel defect is a point defect which occurs in ionic crystals when an ion is removed to an interstitial position, leaving a vacancy behind.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN 978-1-119-45416-8</obo:IAO_0000119>
-        <rdfs:label>Frenkel Defect</rdfs:label>
-        <skos:altLabel>Frenkel Pair</skos:altLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/Impurity -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/Impurity">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An impurity is a point defect where foreign atoms (of different type as the host atom) enter the crystal lattice.</obo:IAO_0000115>
-        <rdfs:label>Impurity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/Interstitial -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/Interstitial">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interstitial is a point defect where an atom occupies an interstitial site. In crystallography, interstitial sites are the empty space between the atoms (assuming a hard-sphere model).</obo:IAO_0000115>
-        <rdfs:label>Interstitial</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/InterstitialImpurity -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/InterstitialImpurity">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/Impurity"/>
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/Interstitial"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A interstitial impurity is a point defect where the atom occupying the interstitial site is of a different type as the matrix.</obo:IAO_0000115>
-        <rdfs:label>Interstitial Impurity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A point defect is a crystalline defect which is localized at or around a single lattice point. It is considered to be a zero-dimensional defect because it does not extend in any dimension in the lattice.</obo:IAO_0000115>
-        <rdfs:label>Point Defect</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/SchottkyDefect -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/SchottkyDefect">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Schottky defect is a point defect which occurs in ionic crystals when oppositely charged ions create a vacancy in the interior of the lattice and go to the surface.</obo:IAO_0000115>
-        <rdfs:label>Schottky Defect</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/Self-interstitial -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/Self-interstitial">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/Interstitial"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A self-interstitial is an insterstitial defect where the atom occupying the interstitial site is of the same type as the matrix.</obo:IAO_0000115>
-        <rdfs:label>Self-interstitial</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/SubstitutionalImpurity -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/SubstitutionalImpurity">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/Impurity"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substitutional impurity is an impurity where an atom of different type replaces a host or matrix atom.</obo:IAO_0000115>
-        <rdfs:label>Substitutional Impurity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purls.helmholtz-metadaten.de/cdos/podo/Vacancy -->
-
-    <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cdos/podo/Vacancy">
-        <rdfs:subClassOf rdf:resource="http://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vacancy is a point defect in which an atom is missing from its original lattice site.</obo:IAO_0000115>
-        <rdfs:label>Vacancy</rdfs:label>
     </owl:Class>
     
 
@@ -488,8 +385,111 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purls.helmholtz-metadaten.de/cmso/ComputationalSample -->
 
     <owl:Class rdf:about="http://purls.helmholtz-metadaten.de/cmso/ComputationalSample">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A computational sample is a representative system of a material for analysis through computational methods in the context of materials science.</obo:IAO_0000115>
+        <obo:IAO_0000115>A computational sample is a representative system of a material for analysis through computational methods in the context of materials science.</obo:IAO_0000115>
         <rdfs:label>Computational Sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/AntisiteDefect -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/AntisiteDefect">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
+        <obo:IAO_0000115>Antisite Defect is a point defect which occurs in ordered alloys or compounds when two atoms of different type switch positions.</obo:IAO_0000115>
+        <obo:IAO_0000119>ISBN 978-1-119-45416-8</obo:IAO_0000119>
+        <rdfs:label>Antisite Defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/FrenkelDefect -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/FrenkelDefect">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
+        <obo:IAO_0000115>A Frenkel defect is a point defect which occurs in ionic crystals when an ion is removed to an interstitial position, leaving a vacancy behind.</obo:IAO_0000115>
+        <obo:IAO_0000119>ISBN 978-1-119-45416-8</obo:IAO_0000119>
+        <rdfs:label>Frenkel Defect</rdfs:label>
+        <skos:altLabel>Frenkel Pair</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/Impurity -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/Impurity">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
+        <obo:IAO_0000115>An impurity is a point defect where foreign atoms (of different type as the host atom) enter the crystal lattice.</obo:IAO_0000115>
+        <rdfs:label>Impurity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/Interstitial -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/Interstitial">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
+        <obo:IAO_0000115>An interstitial is a point defect where an atom occupies an interstitial site. In crystallography, interstitial sites are the empty space between the atoms (assuming a hard-sphere model).</obo:IAO_0000115>
+        <rdfs:label>Interstitial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/InterstitialImpurity -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/InterstitialImpurity">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/Impurity"/>
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/Interstitial"/>
+        <obo:IAO_0000115>A interstitial impurity is a point defect where the atom occupying the interstitial site is of a different type as the matrix.</obo:IAO_0000115>
+        <rdfs:label>Interstitial Impurity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect">
+        <obo:IAO_0000115>A point defect is a crystalline defect which is localized at or around a single lattice point. It is considered to be a zero-dimensional defect because it does not extend in any dimension in the lattice.</obo:IAO_0000115>
+        <rdfs:label>Point Defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/SchottkyDefect -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/SchottkyDefect">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
+        <obo:IAO_0000115>A Schottky defect is a point defect which occurs in ionic crystals when oppositely charged ions create a vacancy in the interior of the lattice and go to the surface.</obo:IAO_0000115>
+        <rdfs:label>Schottky Defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/Self-interstitial -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/Self-interstitial">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/Interstitial"/>
+        <obo:IAO_0000115>A self-interstitial is an insterstitial defect where the atom occupying the interstitial site is of the same type as the matrix.</obo:IAO_0000115>
+        <rdfs:label>Self-interstitial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/SubstitutionalImpurity -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/SubstitutionalImpurity">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/Impurity"/>
+        <obo:IAO_0000115>A substitutional impurity is an impurity where an atom of different type replaces a host or matrix atom.</obo:IAO_0000115>
+        <rdfs:label>Substitutional Impurity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purls.helmholtz-metadaten.de/cdos/podo/Vacancy -->
+
+    <owl:Class rdf:about="https://purls.helmholtz-metadaten.de/cdos/podo/Vacancy">
+        <rdfs:subClassOf rdf:resource="https://purls.helmholtz-metadaten.de/cdos/podo/PointDefect"/>
+        <obo:IAO_0000115>A vacancy is a point defect in which an atom is missing from its original lattice site.</obo:IAO_0000115>
+        <rdfs:label>Vacancy</rdfs:label>
     </owl:Class>
     
 
@@ -588,5 +588,5 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
